@@ -1,0 +1,65 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+/* shared styles for the whole project */
+header{
+    background-color:rgb(255,233,218);
+    padding-top:50px;
+
+}
+nav{
+    width:80%;
+    max-width: auto;
+    /* border:2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.btn
+{
+    /* padding-left:20px; */
+    border:none;
+    border-radius:5px;
+    background-color:#FD6E0A;
+    color:white;
+    padding: 18px 35px; 
+    /* justify-content: center;
+    height:65px;
+    width:150px; */
+    font-size:20px;
+    font-weight:bold;
+   
+}
+/* main styles for the whole project */
+.logo h2{
+    font-size:45px;
+    font-weight:bolder;
+    justify-content: center;
+    
+
+}
+ .orange{
+    color:#FD6E0A;
+ }
+nav .manu{
+    display:flex;
+    list-style-type:none;
+    gap:20px;
+    align-items:center;
+    
+    
+}
+.manu li a{
+    text-decoration:none;
+    color:#474747;
+    font-size:20px;
+}
