@@ -13,6 +13,10 @@
 header{
     background-color:rgb(255,233,218);
     padding-top:50px;
+    background:url(../images/developer.png),url(../images/header_bg.png),rgb(255,233,218);
+    background-repeat:no-repeat;
+    background-position:top left, bottom right;
+   
 
 }
 nav{
@@ -37,12 +41,13 @@ nav{
     width:150px; */
     font-size:20px;
     font-weight:bold;
+    cursor:pointer;
    
 }
 /* main styles for the whole project */
 .logo h2{
     font-size:45px;
-    font-weight:bolder;
+    font-weight:bold;
     justify-content: center;
     
 
@@ -62,4 +67,38 @@ nav .manu{
     text-decoration:none;
     color:#474747;
     font-size:20px;
+}
+#banner{
+   border: #FD6E0A 2px solid;
+   margin:47px 38px 0px 230px ;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+#banner .banner-content{
+    max-width: 585px;;
+}
+#banner .banner-content h2{
+    font-size:45px;
+    font-weight:semibold;
+    margin-bottom:5px;
+    color:#474747;
+}
+#banner .banner-content h1{
+    font-size:85px;
+    font-weight:bold;
+    margin-bottom:20px;
+    color:#181818;
+}
+#banner .banner-content p{
+    font-size:18px;
+    color:#757575;
+    font-weight:400;
+    line-height:35px;
+    margin:30px;
+}
+#banner .banner-image img{
+    max-width:585px;
+    vertical-align: middle;
 }
